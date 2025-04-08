@@ -1,3 +1,7 @@
+<div align="right">
+  <a href="README.md">English</a> | <a href="README.cn.md">中文</a>
+</div>
+
 # Vue 3 + TypeScript Blogs
 
 The front-end source code of the blog project uses the latest technology **_Vue3 + Tyepscript + Vite + TailWindocss + Threejs ..._**
@@ -20,29 +24,29 @@ The front-end source code of the blog project uses the latest technology **_Vue3
 
 ---
 
-### Project tree 
+### Project Structure
 
 ```md
 ├─ public                   # Static resources
 ├─ src                      # Root directory
 │  ├─ App.vue
 │  ├─ api                   
-│  │  ├─ backend            # Back-end interface
-│  │  ├─ common             # Public interface
+│  │  ├─ backend            # Backend interfaces
+│  │  ├─ common             # Common interfaces
 │  │  └─ index.ts
 │  ├─ assets
 │  ├─ components            # Components
-│  ├─ global                # Overall situation
-│  ├─ hook                  # hook 
+│  ├─ global                # Global
+│  ├─ hook                  # Hooks
 │  ├─ main.ts
-│  ├─ pages                 # Page
-│  ├─ plugins               # Plug-in unit
+│  ├─ pages                 # Pages
+│  ├─ plugins               # Plugins
 │  ├─ router                # Routing
-│  ├─ store                 # pinia store
+│  ├─ store                 # Pinia store
 │  ├─ styles
 │  ├─ type.d.ts
 │  ├─ types
-│  ├─ utils                 # Method file
+│  ├─ utils                 # Utility files
 │  └─ vite-env.d.ts
 ├─ .env
 ├─ .env.development
@@ -51,60 +55,56 @@ The front-end source code of the blog project uses the latest technology **_Vue3
 ├─ CHANGELOG.md
 ├─ LICENSE
 ├─ README.md
-├─ commitlint.config.js     # commitlint Configuration file
+├─ commitlint.config.js     # Commitlint configuration
 ├─ eslint.config.js
 ├─ index.html
 ├─ package.json
 ├─ pnpm-lock.yaml
-├─ postcss.config.js        # postcss Configuration file
-├─ tailwind.config.js       # tailwind css Configuration file
+├─ postcss.config.js        # PostCSS configuration
+├─ tailwind.config.js       # Tailwind CSS configuration
 ├─ tsconfig.json
 ├─ tsconfig.node.json
 └─ vite.config.ts
 ```
 
-### Start up
-By default, your computer has installed Nodejs Vue MongoDB and code editor and other environments. Please refer to the configuration of my environment:
+### Getting Started
+By default, your computer should have Node.js, Vue, MongoDB, and a code editor installed. Please refer to my environment configuration:
 ```
-Nodejs: v18.18.0
+Node.js: v18.18.0
 @vue/cli 5.0.8
 ```
 ```
 git clone https://github.com/IsMShmily/Vue3_Ts_blog.git
 ```
 
-| Order          | Comment                        |
-| -------------- | ------------------------------ |
-| pnpm i         | Download dependencies          |
-| pnpm run dev   | Start the test environment     |
-| pnpm run build | Package production environment |
+| Command        | Description                  |
+| -------------- | ---------------------------- |
+| pnpm i         | Install dependencies         |
+| pnpm run dev   | Start development server     |
+| pnpm run build | Build for production         |
 
 ---
 
+### Next.js Series
 
-
-### Next.js series
-
-- [初始Nextjs 15](https://blog.csdn.net/shmilynn_/article/details/137891060?spm=1001.2014.3001.5502)
-- [Nextjs15 -  App Router](https://blog.csdn.net/shmilynn_/article/details/137904724?spm=1001.2014.3001.5502)
-- [Nextjs15 - Route Handlers的使用](https://blog.csdn.net/shmilynn_/article/details/146515380?spm=1001.2014.3001.5501)
-- [Nextjs15 - middleware的使用](https://blog.csdn.net/shmilynn_/article/details/146543636?spm=1001.2014.3001.5501)
-- [Nextjs15 - 什么是CSR、SSR、SSG和ISR](https://blog.csdn.net/shmilynn_/article/details/146544013?spm=1001.2014.3001.5501)
-- [Nextjs15 - 服务端组件(RSC)与客服端组件](https://blog.csdn.net/shmilynn_/article/details/146572565?spm=1001.2014.3001.5501)
-- [Nextjs15 - Client Component 客户端组件](https://blog.csdn.net/shmilynn_/article/details/146582184?spm=1001.2014.3001.5501)
-- [Nextjs15 - Streaming 流式传输是什么？](https://blog.csdn.net/shmilynn_/article/details/146582094?spm=1001.2014.3001.5501)
-- [Nextjs15 - 服务器渲染策略](https://blog.csdn.net/shmilynn_/article/details/146582209?spm=1001.2014.3001.5501)
+- [Getting Started with Next.js 15](https://blog.csdn.net/shmilynn_/article/details/137891060?spm=1001.2014.3001.5502)
+- [Next.js 15 - App Router](https://blog.csdn.net/shmilynn_/article/details/137904724?spm=1001.2014.3001.5502)
+- [Next.js 15 - Using Route Handlers](https://blog.csdn.net/shmilynn_/article/details/146515380?spm=1001.2014.3001.5501)
+- [Next.js 15 - Using Middleware](https://blog.csdn.net/shmilynn_/article/details/146543636?spm=1001.2014.3001.5501)
+- [Next.js 15 - Understanding CSR, SSR, SSG, and ISR](https://blog.csdn.net/shmilynn_/article/details/146544013?spm=1001.2014.3001.5501)
+- [Next.js 15 - Server Components (RSC) vs Client Components](https://blog.csdn.net/shmilynn_/article/details/146572565?spm=1001.2014.3001.5501)
+- [Next.js 15 - Client Components](https://blog.csdn.net/shmilynn_/article/details/146582184?spm=1001.2014.3001.5501)
+- [Next.js 15 - What is Streaming?](https://blog.csdn.net/shmilynn_/article/details/146582094?spm=1001.2014.3001.5501)
+- [Next.js 15 - Server-Side Rendering Strategies](https://blog.csdn.net/shmilynn_/article/details/146582209?spm=1001.2014.3001.5501)
 
 ---
 
+### TypeScript Gymnastics Series
 
-
-### TypeScript gymnastics series
-
-- [TS为什么被叫做类型体操](https://blog.csdn.net/shmilynn_/article/details/137981157?spm=1001.2014.3001.5502)
-- [Ts支持哪些类型和类型运算(上)](https://blog.csdn.net/shmilynn_/article/details/137996269?spm=1001.2014.3001.5502)
-- [Ts支持哪些类型和类型运算(下)](https://blog.csdn.net/shmilynn_/article/details/138050067?spm=1001.2014.3001.55022)
-- [Ts类型体操详讲 之 extends infer](https://blog.csdn.net/shmilynn_/article/details/138072708?spm=1001.2014.3001.5502)
+- [Why is TypeScript Called Type Gymnastics?](https://blog.csdn.net/shmilynn_/article/details/137981157?spm=1001.2014.3001.5502)
+- [TypeScript Types and Type Operations (Part 1)](https://blog.csdn.net/shmilynn_/article/details/137996269?spm=1001.2014.3001.5502)
+- [TypeScript Types and Type Operations (Part 2)](https://blog.csdn.net/shmilynn_/article/details/138050067?spm=1001.2014.3001.55022)
+- [TypeScript Type Gymnastics: Detailed Explanation of extends and infer](https://blog.csdn.net/shmilynn_/article/details/138072708?spm=1001.2014.3001.5502)
 
 ---
 
